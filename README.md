@@ -51,5 +51,11 @@ Maps a value from one range to another.
 ### lerp(start, end, alpha)
 Performs linear interpolation between two values.
 
+### math(expression)
+Calculates the provided numbers and content.
+
+### factorial(n)
+Finds the factorial of a chosen number.
+
 ## License
 This library is provided under the MIT License. Feel free to use and modify it according to your needs.
