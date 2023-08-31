@@ -3,7 +3,7 @@ A Python Mathematics Library.
 
 # Numequate Math Functions Library
 
-The `numequate/base.py` library provides basic mathematical operations for addition, subtraction, multiplication, division, and exponentiation.
+The `numequate` library provides basic mathematical operations for addition, subtraction, multiplication, division, and exponentiation.
 
 ## Installation
 
