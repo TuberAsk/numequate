@@ -1,6 +1,3 @@
-# numequate
-A Python Mathematics Library.
-
 # Numequate Math Functions Library
 
 The `numequate` library provides basic mathematical operations for addition, subtraction, multiplication, division, and exponentiation.
@@ -12,17 +9,36 @@ You can install the library using pip:
 ```bash
 pip install numequate
 ```
+## About
+
+The `numequate` library is a collection of basic mathematical operations for Python. It's designed to simplify common mathematical tasks in your Python projects. Whether you need to perform addition, subtraction, multiplication, division, or exponentiation, `numequate` has you covered.
+
+### Features
+
+- **Simplicity:** The library provides straightforward functions for essential math operations.
+- **Error Handling:** It includes error handling to ensure safe division and handling of edge cases.
+- **Additional Functions:** In addition to basic operations, `numequate` offers extra math functions, including factorial, Fibonacci, and GCD calculations.
+- **Range Manipulation:** Functions like `clamp` and `map_range` help you manage values within specific ranges.
+- **Interpolation:** Perform linear interpolation with the `lerp` function.
+- **Math Expressions:** Evaluate mathematical expressions with the `math` function.
+
+## Documentation
+
+For detailed information on how to use each function and examples, please refer to the [documentation](https://github.com/TuberAsk/numequate/wiki).
+
 
 ## Usage
 
 ```python
 from numequate.base import add, subtract, multiply, divide, power
 
-result = add(5, 3)       # Returns 8
-result = subtract(10, 4) # Returns 6
-result = multiply(2, 6)  # Returns 12
-result = divide(10, 2)   # Returns 5
-result = power(3, 4)     # Returns 81
+resultAdd = add(5, 3)       # Returns 8
+#result = subtract(10, 4) # Returns 6
+#result = multiply(2, 6)  # Returns 12
+#result = divide(10, 2)   # Returns 5
+resultPower = power(3, 4)     # Returns 81
+
+print(resultAdd, resultPower)
 ```
 
 ## Functions
@@ -57,5 +73,11 @@ Calculates the provided numbers and content.
 ### factorial(n)
 Finds the factorial of a chosen number.
 
+### fibonacci(n)
+Calculate the nth Fibonacci number.
+
+### gcd(a, b)
+Calculate the greatest common divisor (GCD) of two non-negative integers a and b.
+
 ## License
-This library is provided under the MIT License. Feel free to use and modify it according to your needs.
+This library is provided under the BSD License. Feel free to use and modify it according to your needs.
